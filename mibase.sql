@@ -1,6 +1,4 @@
 CREATE DATABASE evaluacion4;
--- CREANDO LA TABLA cliente
-
 ---CREANDO TABLA suscripcion
 CREATE TABLE suscripcion (
 suscripcion_id BIGSERIAL,
@@ -9,7 +7,7 @@ precio NUMERIC,
 duracion DATE,
 PRIMARY KEY (suscripcion_id)
 );
-
+-- CREANDO LA TABLA cliente
 CREATE TABLE cliente ( 
 cliente_id BIGSERIAL,
 nombre VARCHAR(50),
@@ -54,7 +52,7 @@ FOREIGN KEY (transaccion_id) REFERENCES transaccion (transaccion_id)
 
 ---CREANDO TABLA producto
 CREATE TABLE producto (
-producto_id BIGINT,
+producto_id BIGSERIAL,
 nombre VARCHAR (50),
 precio NUMERIC,
 cantidad NUMERIC,

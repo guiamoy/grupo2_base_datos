@@ -1,0 +1,22 @@
+--CONSULTA SQL
+
+SELECT * FROM cliente
+--MUESTRA TODOS LOS DATOS DE LA TABLA cliente
+
+SELECT * FROM producto
+--MUESTRA TODOS LOS DATOS DE LA TABLA producto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
